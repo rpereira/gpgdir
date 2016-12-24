@@ -6,6 +6,7 @@
 // TODO: neccessary?
 extern const char git_usage_string[];
 
+extern int cmd_encrypt(int argc, const char **argv);
 extern int cmd_version(int argc, const char **argv);
 
 #endif /* BUILTIN_H */

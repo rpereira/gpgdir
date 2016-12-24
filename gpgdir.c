@@ -21,7 +21,7 @@ static int run_builtin(struct cmd_struct *p, int argc, const char **argv)
 
 static struct cmd_struct commands[] = {
     // { "decrypt", cmd_decrypt },
-    // { "encrypt", cmd_encrypt },
+    { "encrypt",    cmd_encrypt },
     // { "help",    cmd_help    },
     { "version",    cmd_version },
 };
