@@ -10,7 +10,7 @@ all: $(OBJECTS)
 	$(CC) $(OBJECTS) -o $(TARGET)
 
 %.o: %.c
-	$(CC) -c $(CC_FLAGS) $< -o $@
+	$(CC) -c $(CFLAGS) $< -o $@
 
 install:
 	cp -f $(TARGET) /usr/local/bin
