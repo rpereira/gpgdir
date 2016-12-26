@@ -15,5 +15,6 @@ all: $(OBJECTS)
 install:
 	cp -f $(TARGET) /usr/local/bin
 
+.PHONY: clean
 clean:
 	rm -f $(OBJECTS)
