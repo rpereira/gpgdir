@@ -3,7 +3,7 @@ CFLAGS = -g -O2 -Wall
 
 SOURCES = $(wildcard *.c)
 OBJECTS = $(SOURCES:.c=.o)
-TARGET  = build/gpgdir
+TARGET  = ../build/gpgdir
 
 all: $(OBJECTS)
 	mkdir -p build
